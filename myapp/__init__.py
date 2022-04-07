@@ -38,7 +38,6 @@ login_manager.login_view = 'users.login'
 
 
 
-
 # Registering Blueprints - 
 
 from myapp.core.views import core 
