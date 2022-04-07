@@ -55,3 +55,6 @@ app.register_blueprint(users)
 # Linking and registering blog_posts views Blueprint
 from myapp.blog_posts.views import blog_posts
 app.register_blueprint(blog_posts)
+
+from myapp.core.views import core 
+app.register_blueprint(core)
